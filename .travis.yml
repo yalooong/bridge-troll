@@ -10,7 +10,9 @@ before_install:
   - # TODO: why does this work?
   - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
 
-before_deploy: npm run build
+before_deploy: 
+  - npm run build
+  - echo "node_modules" > .gitignore
 
 deploy:
   provider: pages
