@@ -4,7 +4,7 @@ A friendly troll that lives under Ontario's bridges.
 
 ## Introduction
 
-`bridge-troll` is a browser based geolocation game based on open bridge data in
+`bridge-troll` is a browser based geolocation game based on open bridge data in 
 Ontario by geographic location.  The data is freely available from the
 Government of Ontario website:
 
